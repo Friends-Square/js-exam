@@ -162,11 +162,14 @@ function firstElement(getArray) {
     // squared(9) ➞ 81
     // squared(100) ➞ 10000
 
-    Math.sqrt(5);
-    Math.sqrt(9);
-    Math.sqrt(100);
+    function squared(num) {
+        let squared = num * num;
+        return console.log(squared);
+    }
+    // squared(5);
+    // squared(81);
+    // squared(100);
 
-    console.log(Math.sqrt(5));
 
 // Question No. 12. Is the Number Less than or Equal to Zero?
     // lessThanOrEqualToZero(5) ➞ false
